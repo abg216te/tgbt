@@ -1,0 +1,56 @@
+# .gitignore for a Go project (standard paths)
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage and output files
+*.test
+*.out
+*.coverprofile
+cover.out
+
+# Build directories and output
+/bin/
+/build/
+/dist/
+
+# Dependency directories (uncomment if you vendor dependencies)
+/vendor/
+Godeps/
+
+# Go workspace file
+go.work
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.suo
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment and local config files
+.env
+.env.local
+.env.*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Misc generated files
+*_pb.go
+*_pb2.py
+*.packr
+
+# Keep go.mod and go.sum tracked (recommended) - do not ignore
+
+# End of file
