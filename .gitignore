@@ -53,4 +53,6 @@ Thumbs.db
 
 # Keep go.mod and go.sum tracked (recommended) - do not ignore
 
+.devnotes
+
 # End of file

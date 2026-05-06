@@ -21,6 +21,6 @@ func (s *UserService) Register(tgID int64, name string) error {
 	return s.repo.Save(user)
 }
 
-func (s *UserService) List() ([]*domain.User, error) {
+func (s *UserService) List() ([]domain.User, error) {
 	return s.repo.GetAll()
 }
